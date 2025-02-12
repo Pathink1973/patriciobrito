@@ -51,7 +51,7 @@ const projects = {
   'aimilia': {
     title: 'AImilia® Tutor AI',
     subtitle: 'The Virtual Tutor in the Fight Against Alzheimer\'s',
-    description: `AImilia® is a virtual tutor specialized in Alzheimer's, developed to provide accurate information, comprehensive support, and interactive resources about the disease. Using advanced AI technology powered by OpenAI's GPT-4.`,
+    description: `AImilia® is a virtual tutor specialized in Alzheimer's, developed to provide accurate information in portuguese, comprehensive support, and interactive resources about the disease. Using advanced AI technology powered by OpenAI's GPT-4.`,
     features: [
       'Voice Interface with Visual Feedback',
       'Advanced AI Responses',
