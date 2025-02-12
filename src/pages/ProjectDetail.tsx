@@ -6,7 +6,7 @@ const projects = {
   'abc-autismo': {
     title: 'Autism.us',
     subtitle: 'Facilitating Communication Through Images',
-    description: `Autism.us is an innovative application designed to help children on the autism spectrum communicate effectively and functionally. Through an intuitive image-based system, caregivers, therapists, or parents can create an environment adapted to each child's specific needs.`,
+    description: `Autism.us is an innovative application designed to help children on the autism spectrum communicate effectively and functionally. Through an intuitive portuguese image-based system, caregivers, therapists, or parents can create an environment adapted to each child's specific needs.`,
     features: [
       'Image Selection and Organization',
       'Phrase Creation',
