@@ -30,7 +30,7 @@ const projects = [
   {
     id: 'aimilia',
     title: 'AImilia® Tutor AI',
-    description: 'AI-powered virtual tutor specialized in Alzheimer\'s disease support and education.',
+    description: 'AI-powered virtual tutor specialized in Alzheimer\'s disease support and education. Portuguese version.',
     image: '/images/aimilia.jpg',
     technologies: ['React', 'TypeScript', 'OpenAI', 'Web Speech API'],
     liveUrl: 'https://aimilia.netlify.app/',
