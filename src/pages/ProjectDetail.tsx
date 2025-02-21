@@ -3,20 +3,35 @@ import { useParams, Link } from 'react-router-dom';
 import { ArrowLeft, ExternalLink } from 'lucide-react';
 
 const projects = {
-  'abc-autismo': {
-    title: 'Autism.us',
-    subtitle: 'Facilitating Communication Through Images',
-    description: `Autism.us is an innovative application designed to help children on the autism spectrum communicate effectively and functionally. Through an intuitive portuguese image-based system, caregivers, therapists, or parents can create an environment adapted to each child's specific needs.`,
+  'aimilia': {
+    title: 'AImilia® Tutor AI',
+    subtitle: 'The Virtual Tutor in the Fight Against Alzheimer\'s',
+    description: `AImilia® is a virtual tutor specialized in Alzheimer's, developed to provide accurate information, comprehensive support, and interactive resources about the disease. Using advanced AI technology powered by OpenAI's GPT-4.`,
     features: [
-      'Image Selection and Organization',
-      'Phrase Creation',
-      'Audio Feedback',
-      'Complete Customization',
-      'PECs Compatibility',
+      'Voice Interface with Visual Feedback',
+      'Advanced AI Responses',
+      'Intelligent Context Management',
+      'Comprehensive Alzheimer\'s Knowledge',
+      'Responsive Design',
     ],
-    image: '/images/autism-us.jpg',
-    technologies: ['React', 'TypeScript', 'Supabase', 'Web Speech API'],
-    liveUrl: 'https://abc-autismo.netlify.app/',
+    image: '/images/aimilia.jpg',
+    technologies: ['React', 'TypeScript', 'OpenAI', 'Web Speech API'],
+    liveUrl: 'https://aimilia.netlify.app/'
+  },
+  'noa': {
+    title: 'NOA Creative Assistant AI',
+    subtitle: 'The Virtual Tutor for Creatives',
+    description: `Noa is more than a name – it is an invitation to innovation. Inspired by the concept of fluidity and imagination, Noa was created to be your creative partner, helping you transform inspirations into reality.`,
+    features: [
+      'Voice Interface with Visual Feedback',
+      'Advanced AI Responses',
+      'Intelligent Context Management',
+      'Comprehensive Creativity Knowledge',
+      'Responsive Design',
+    ],
+    image: '/images/noa.jpg',
+    technologies: ['React', 'TypeScript', 'OpenAI', 'Web Speech API'],
+    liveUrl: 'https://noa-criativa.netlify.app/'
   },
   'notify': {
     title: 'Notify',
@@ -31,7 +46,7 @@ const projects = {
     ],
     image: '/images/notify.jpg',
     technologies: ['React', 'TypeScript', 'Supabase', 'Markdown'],
-    liveUrl: 'https://notify-keep.netlify.app/',
+    liveUrl: 'https://notify-keep.netlify.app/'
   },
   'expomatic': {
     title: 'Expomatic',
@@ -45,24 +60,9 @@ const projects = {
       'Real-time Visual Feedback',
     ],
     image: '/images/expomatic.jpg',
-    technologies: ['React', 'TypeScript', 'Canvas API', 'Web Workers'],
-    liveUrl: 'https://expomatic.netlify.app/',
-  },
-  'aimilia': {
-    title: 'AImilia® Tutor AI',
-    subtitle: 'The Virtual Tutor in the Fight Against Alzheimer\'s',
-    description: `AImilia® is a virtual tutor specialized in Alzheimer's, developed to provide accurate information in portuguese, comprehensive support, and interactive resources about the disease. Using advanced AI technology powered by OpenAI's GPT-4.`,
-    features: [
-      'Voice Interface with Visual Feedback',
-      'Advanced AI Responses',
-      'Intelligent Context Management',
-      'Comprehensive Alzheimer\'s Knowledge',
-      'Responsive Design',
-    ],
-    image: '/images/aimilia.jpg',
-    technologies: ['React', 'TypeScript', 'OpenAI', 'Web Speech API'],
-    liveUrl: 'https://aimilia.netlify.app/',
-  },
+    technologies: ['React', 'TypeScript', 'Three.js', 'WebGL'],
+    liveUrl: 'https://expomatic.netlify.app/'
+  }
 };
 
 const ProjectDetail = () => {

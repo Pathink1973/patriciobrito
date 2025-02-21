@@ -53,7 +53,7 @@ const About = () => {
               <p className="text-gray-300">
                 I specialize in integrating AI technologies like OpenAI's GPT models into applications,
                 creating intelligent and responsive user experiences that enhance functionality and user
-                engagement. Living in Portugal.
+                engagement.
               </p>
             </div>
           </div>

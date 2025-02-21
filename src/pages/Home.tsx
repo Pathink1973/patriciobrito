@@ -1,5 +1,5 @@
 import React from 'react';
-import { ArrowRight, Brain, MessageSquare, Camera, Notebook } from 'lucide-react';
+import { ArrowRight, Brain, MessageSquare, Camera, Notebook, StickyNote } from 'lucide-react';
 import { Link } from 'react-router-dom';
 
 const technologies = [
@@ -23,37 +23,37 @@ const technologies = [
 
 const featuredApps = [
   {
-    id: 'abc-autismo',
-    title: 'Autism.us',
-    description: 'An innovative application designed to help children on the autism spectrum communicate effectively through customizable images.',
-    image: '/images/autism-us.jpg',
-    technologies: ['React', 'TypeScript', 'Supabase'],
-    icon: <Brain className="w-6 h-6 text-blue-400" />,
-  },
-  {
     id: 'aimilia',
     title: 'AImilia® Tutor AI',
     description: 'AI-powered virtual tutor specialized in Alzheimer\'s disease support and education.',
     image: '/images/aimilia.jpg',
     technologies: ['React', 'TypeScript', 'OpenAI', 'Web Speech API'],
-    icon: <MessageSquare className="w-6 h-6 text-purple-400" />,
+    icon: <Brain className="w-6 h-6 text-purple-400" />,
   },
   {
-    id: 'expomatic',
-    title: 'Expomatic',
-    description: 'Interactive web app teaching photography exposure basics through real-time simulations.',
-    image: '/images/expomatic.jpg',
-    technologies: ['React', 'TypeScript', 'Canvas API'],
-    icon: <Camera className="w-6 h-6 text-green-400" />,
+    id: 'noa',
+    title: 'NOA Creative Assistant AI',
+    description: 'AI-powered virtual tutor specialized in Design, Video and Photography.',
+    image: '/images/noa.jpg',
+    technologies: ['React', 'TypeScript', 'OpenAI', 'Web Speech API'],
+    icon: <MessageSquare className="w-6 h-6 text-blue-400" />,
   },
   {
     id: 'notify',
     title: 'Notify',
-    description: 'A modern digital Post-It app with Markdown support and real-time synchronization.',
+    description: 'Modern note-taking app with real-time sync and markdown support.',
     image: '/images/notify.jpg',
-    technologies: ['React', 'TypeScript', 'Supabase'],
-    icon: <Notebook className="w-6 h-6 text-yellow-400" />,
+    technologies: ['React', 'TypeScript', 'Supabase', 'Markdown'],
+    icon: <StickyNote className="w-6 h-6 text-yellow-400" />,
   },
+  {
+    id: 'expomatic',
+    title: 'Expomatic',
+    description: 'Interactive web app for learning photography exposure fundamentals.',
+    image: '/images/expomatic.jpg',
+    technologies: ['React', 'TypeScript', 'Three.js', 'WebGL'],
+    icon: <Camera className="w-6 h-6 text-green-400" />,
+  }
 ];
 
 const Home = () => {

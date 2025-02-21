@@ -4,37 +4,37 @@ import { ExternalLink } from 'lucide-react';
 
 const projects = [
   {
-    id: 'abc-autismo',
-    title: 'Autism.us',
-    description: 'An innovative application designed to help children on the autism spectrum communicate effectively through customizable images.',
-    image: '/images/autism-us.jpg',
-    technologies: ['React', 'TypeScript', 'Supabase'],
-    liveUrl: 'https://abc-autismo.netlify.app/',
+    id: 'aimilia',
+    title: 'AImilia® Tutor AI',
+    description: 'AI-powered virtual tutor specialized in Alzheimer\'s disease support and education.',
+    image: '/images/aimilia.jpg',
+    technologies: ['React', 'TypeScript', 'OpenAI', 'Web Speech API'],
+    liveUrl: 'https://aimilia.netlify.app/',
+  },
+  {
+    id: 'noa',
+    title: 'NOA Creative Assistant AI',
+    description: 'AI-powered virtual tutor specialized in Design, Video and Photography.',
+    image: '/images/noa.jpg',
+    technologies: ['React', 'TypeScript', 'OpenAI', 'Web Speech API'],
+    liveUrl: 'https://noa-criativa.netlify.app/',
   },
   {
     id: 'notify',
     title: 'Notify',
-    description: 'A modern digital Post-It app with Markdown support and real-time synchronization.',
+    description: 'Modern note-taking app with real-time sync and markdown support.',
     image: '/images/notify.jpg',
-    technologies: ['React', 'TypeScript', 'Supabase'],
+    technologies: ['React', 'TypeScript', 'Supabase', 'Markdown'],
     liveUrl: 'https://notify-keep.netlify.app/',
   },
   {
     id: 'expomatic',
     title: 'Expomatic',
-    description: 'Interactive web app teaching photography exposure basics through real-time simulations.',
+    description: 'Interactive web app for learning photography exposure fundamentals through visual simulation.',
     image: '/images/expomatic.jpg',
-    technologies: ['React', 'TypeScript', 'Canvas API'],
+    technologies: ['React', 'TypeScript', 'Three.js', 'WebGL'],
     liveUrl: 'https://expomatic.netlify.app/',
-  },
-  {
-    id: 'aimilia',
-    title: 'AImilia® Tutor AI',
-    description: 'AI-powered virtual tutor specialized in Alzheimer\'s disease support and education. Portuguese version.',
-    image: '/images/aimilia.jpg',
-    technologies: ['React', 'TypeScript', 'OpenAI', 'Web Speech API'],
-    liveUrl: 'https://aimilia.netlify.app/',
-  },
+  }
 ];
 
 const Projects = () => {
