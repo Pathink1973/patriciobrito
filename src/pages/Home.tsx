@@ -71,7 +71,7 @@ const Home = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
           <div className="text-center">
             <h1 className="text-4xl sm:text-6xl font-bold mb-6 bg-clip-text text-transparent bg-gradient-to-r from-blue-600 to-purple-600 dark:from-blue-400 dark:to-purple-600">
-              Full-Stack Developer & UIX Designer
+              Vide Coding Developer & UIX Designer
             </h1>
             <p className="text-xl sm:text-2xl text-white dark:text-gray-300 mb-8 max-w-3xl mx-auto">
               Crafting innovative solutions with modern technologies and AI integration
@@ -95,7 +95,7 @@ const Home = () => {
               About Me
             </h2>
             <p className="text-lg text-gray-600 dark:text-gray-300 leading-relaxed">
-              As a passionate Full-stack Developer and UIX Designer, I specialize in creating innovative solutions that seamlessly integrate modern technologies with artificial intelligence. My expertise lies in developing applications that not only solve real-world problems but also provide exceptional user experiences. With a strong foundation in React, TypeScript, and AI technologies, I'm dedicated to pushing the boundaries of what's possible in web development.
+              As a passionate Vide Coding Full-stack Developer and UIX Designer, I specialize in creating innovative solutions that seamlessly integrate modern technologies with artificial intelligence. My expertise lies in developing applications that not only solve real-world problems but also provide exceptional user experiences. With a strong foundation in React, TypeScript, and AI technologies, I'm dedicated to pushing the boundaries of what's possible in web development.
             </p>
           </div>
         </div>
