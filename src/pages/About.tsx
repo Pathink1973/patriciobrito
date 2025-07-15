@@ -20,7 +20,7 @@ const About = () => {
           <div className="space-y-6">
             <p className="text-lg text-gray-300">
               As a Full-stack Developer and UIX Designer, I specialize in creating innovative solutions
-              that combine modern technologies with AI integration, called Vide Coding. My passion lies in developing
+              that combine modern technologies with AI integration, called Vibe Coding. My passion lies in developing
               applications that make a real difference in people's lives.
             </p>
             
